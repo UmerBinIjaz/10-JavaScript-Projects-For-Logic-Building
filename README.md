@@ -1,7 +1,4 @@
 # 10 JavaScript Projects For Logic Building
-Here’s a neat, **GitHub-friendly description** for your repository that clearly explains each of your 10 JavaScript projects so visitors instantly understand what’s inside:
-
----
 
 ## 📜 About This Repository
 
@@ -52,5 +49,3 @@ Each project is simple, interactive, and demonstrates a specific JavaScript conc
 * Clean UI for each project
 
 ---
-
-If you want, I can also **add GitHub-ready Markdown code** with emojis, screenshots placeholders, and a nice **table format** for quick scanning. That would make your repo page look extra polished.
