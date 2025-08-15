@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.random-password {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    backdrop-filter: blur(8px);
+    animation: fadeIn 1s ease-in-out;
+    width: 90%;
+    max-width: 500px;
+}
+
+.random-password h1 {
+    font-weight: 600;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.random-password h1 span {
+    color: #ff4081;
+    border-bottom: 3px solid #ff4081;
+}
+
+.display {
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin: 2rem 0;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+}
+
+.display input {
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    flex: 1;
+    background: transparent;
+    color: #333;
+}
+
+.display i {
+    font-size: 1.3rem;
+    color: #ff4081;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.display i:hover {
+    transform: scale(1.2);
+    color: #ff6090;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: linear-gradient(135deg, #ff4081, #ff80ab);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+button i {
+    margin-right: 10px;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(255,64,129,0.4);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #222;
+}
+
+body.on{
+    background: radial-gradient(#555, #111);
+}
+
+
+h1{
+    position: absolute; 
+    left: -140px; 
+    top:80px;
+    color: #222;
+    width: 400px;
+}
+
+.wire{
+    position: absolute;
+    left: calc(50% - 2px);
+    bottom: 50%;
+    height: 60vh;
+    width: 4px;
+    background: #000;
+    z-index: 1;
+}
+
+
+
+.bulb{
+    z-index: 2;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: transparent;
+}
+
+.bulb i{
+    font-size: 4rem;
+    color: #444;
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    rotate: 180deg;
+}
+
+.switch{
+    position: absolute;
+    right: 100px;
+    top: 60px;
+    width: 40px;
+    height: 40px;
+    background: #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: gray 0px 10px 15px -5px;
+    cursor: pointer;
+}
+
+.switch i{
+    font-size: 1.5rem;
+}
+
+.on .bulb i{
+    color: #ffd700;
+}
+
+.on .switch{
+    background: #4caf50;
+}
